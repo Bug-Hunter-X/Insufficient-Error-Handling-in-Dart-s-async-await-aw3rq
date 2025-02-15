@@ -1,0 +1,3 @@
+# Insufficient Error Handling in Dart's async/await
+
+This repository demonstrates a common error in Dart's asynchronous programming using `async` and `await`.  The provided code fetches data from an API but has inadequate error handling.  The solution showcases more robust exception handling to improve the application's stability and reliability.  The original code only prints the error to the console, while the solution provides more detailed error handling based on the specific exception type, and handles cases like timeouts.
